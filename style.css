@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+   background-image: url("./fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-position: right top;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: rgba(12, 90, 90, 0.356); 
+    color: rgb(45, 54, 73);
+}
+.contenedor {
+    display: flex;
+}
+
+.izquierda {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.derecha {
+    flex: 40%;
+    text-align: center;
+}
+.button {
+    padding: 7px 70px; 
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 8%;
+}
+.group{
+    background-color: #d82e2e;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
